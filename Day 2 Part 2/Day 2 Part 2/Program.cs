@@ -14,16 +14,20 @@ namespace Day_2_Part_1
             int i, numberFault;
             char[] charArray;
             char[] charArray2;
-            char[] charArrayFound = new char[30]; 
-            
+            char[] charArrayFound = new char[30];
+            string[] fileData;
+
+
+            fileData = File.ReadLines(@"D:\Prive\Projecten\C#\AdventOfCode2018\Day 2 Part 2\input.txt", Encoding.UTF8).ToArray() ;
+
             //Read each line
-            foreach (string line in File.ReadLines(@"D:\Prive\Projecten\C#\AdventOfCode2018\Day 2 Part 2\input.txt", Encoding.UTF8))
+            foreach (string line in fileData)
             {
                 //String to array of chars
                 charArray = line.ToCharArray();
 
                 //Read each line again (matches don't have to be directly below each other
-                foreach (string line2 in File.ReadLines(@"D:\Prive\Projecten\C#\AdventOfCode2018\Day 2 Part 2\input.txt", Encoding.UTF8))
+                foreach (string line2 in fileData)
                 {
                     //String to array of chars
                     charArray2 = line2.ToCharArray();
@@ -66,10 +70,15 @@ namespace Day_2_Part_1
             Console.WriteLine("Result is: ");
             for (i = 0; i < 30; i++)
             {
-                Console.Write("{0}", charArrayFound[i]);
+                if( charArrayFound[i] != ' ')
+                {
+                    Console.Write("{0}", charArrayFound[i]);
+                }
+                
 
             }
-              Console.ReadKey();
+
+            Console.ReadKey();
 
         }
     }
