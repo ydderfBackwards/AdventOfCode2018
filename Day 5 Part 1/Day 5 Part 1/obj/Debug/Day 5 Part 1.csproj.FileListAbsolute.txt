@@ -1,0 +1,7 @@
+D:\Prive\Projecten\C#\AdventOfCode2018\Day 5 Part 1\Day 5 Part 1\bin\Debug\Day 5 Part 1.exe.config
+D:\Prive\Projecten\C#\AdventOfCode2018\Day 5 Part 1\Day 5 Part 1\bin\Debug\Day 5 Part 1.exe
+D:\Prive\Projecten\C#\AdventOfCode2018\Day 5 Part 1\Day 5 Part 1\bin\Debug\Day 5 Part 1.pdb
+D:\Prive\Projecten\C#\AdventOfCode2018\Day 5 Part 1\Day 5 Part 1\obj\Debug\Day 5 Part 1.csprojAssemblyReference.cache
+D:\Prive\Projecten\C#\AdventOfCode2018\Day 5 Part 1\Day 5 Part 1\obj\Debug\Day 5 Part 1.csproj.CoreCompileInputs.cache
+D:\Prive\Projecten\C#\AdventOfCode2018\Day 5 Part 1\Day 5 Part 1\obj\Debug\Day 5 Part 1.exe
+D:\Prive\Projecten\C#\AdventOfCode2018\Day 5 Part 1\Day 5 Part 1\obj\Debug\Day 5 Part 1.pdb
